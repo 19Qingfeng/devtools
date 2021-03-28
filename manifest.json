@@ -10,17 +10,17 @@
   "action": {
     "default_popup": "/html/popup.html",
     "default_icon": {
-      "16": "/images/logo.png",
-      "32": "/images/logo.png",
-      "48": "/images/logo.png",
-      "128": "/images/logo.png"
+      "16": "/images/ins.png",
+      "32": "/images/ins.png",
+      "48": "/images/ins.png",
+      "128": "/images/ins.png"
     }
   },
-  "devtools_page": "devtools.html",
+  "devtools_page": "/html/devtools.html",
   "icons": {
-    "16": "/images/logo.png",
-    "32": "/images/logo.png",
-    "48": "/images/logo.png",
-    "128": "/images/logo.png"
+    "16": "/images/ins.png",
+    "32": "/images/ins.png",
+    "48": "/images/ins.png",
+    "128": "/images/ins.png"
   }
 }

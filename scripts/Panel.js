@@ -82,28 +82,3 @@ chrome.devtools.network.onNavigated.addListener(() => {
   videoElement.innerText = 0;
   lastHash = undefined;
 });
-
-// chrome.devtools.inspectedWindow.eval(
-//   "inspect($$('head script[data-soak=main]')[0])",
-//   function (result, isException) {
-//     window.onbeforeunload = function () {
-//       return '不准离开';
-//     };
-//   }
-// );
-
-// DevTools page -- devtools.js
-// // Create a connection to the background page
-// var backgroundPageConnection = chrome.runtime.connect({
-//   name: 'devtools-page',
-// });
-
-// backgroundPageConnection.onMessage.addListener(function (message) {
-//   // Handle responses from the background page, if any
-// });
-
-// // Relay the tab ID to the background page
-// chrome.runtime.sendMessage({
-//   tabId: chrome.devtools.inspectedWindow.tabId,
-//   scriptToInject: 'content_script.js',
-// });

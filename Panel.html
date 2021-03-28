@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,10 +5,43 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    .nx-wang-wrapper {
+      width: 100%;
+      height: 300px;
+      background-color: antiquewhite;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .wanghaoyu {
+      width: 300px;
+      height: 200px;
+      box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+      font-size: 26px;
+      line-height: 32px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .wanghaoyu-title {
+      color: #198754 !important;
+    }
+  </style>
 </head>
 
 <body>
-  <div>this is page</div>
+  <div class="nx-wang-wrapper">
+    <div class="wanghaoyu">
+      <div> video count: <span class="wanghaoyu-title" id="nx-wanghaoyu-video">0</span></div>
+      <div> image count: <span class="wanghaoyu-title" id="nx-wanghaoyu-image">0</span></div>
+    </div>
+  </div>
+  <script src="/Panel.js">
+  </script>
 </body>
 
 </html>
